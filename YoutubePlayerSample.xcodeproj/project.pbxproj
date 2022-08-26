@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0715041B01C4F8253832B6C1 /* Pods_YoutubePlayerSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A4B6245CC008F904B348A6 /* Pods_YoutubePlayerSample.framework */; };
+		7FF6611828B856B5006F9E94 /* YoutubePlayerSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF6611728B856B5006F9E94 /* YoutubePlayerSampleApp.swift */; };
+		7FF6611A28B856B5006F9E94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF6611928B856B5006F9E94 /* ContentView.swift */; };
+		7FF6611C28B856B9006F9E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF6611B28B856B9006F9E94 /* Assets.xcassets */; };
+		7FF6611F28B856B9006F9E94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF6611E28B856B9006F9E94 /* Preview Assets.xcassets */; };
+		7FF6612628B85906006F9E94 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF6612528B85906006F9E94 /* PlayerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		497C9FDF97A7F5989AEDB406 /* Pods-YoutubePlayerSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubePlayerSample.release.xcconfig"; path = "Target Support Files/Pods-YoutubePlayerSample/Pods-YoutubePlayerSample.release.xcconfig"; sourceTree = "<group>"; };
+		7FF6611428B856B5006F9E94 /* YoutubePlayerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubePlayerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF6611728B856B5006F9E94 /* YoutubePlayerSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubePlayerSampleApp.swift; sourceTree = "<group>"; };
+		7FF6611928B856B5006F9E94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FF6611B28B856B9006F9E94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FF6611E28B856B9006F9E94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FF6612528B85906006F9E94 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		CA9A10BA7625F93C83FA629A /* Pods-YoutubePlayerSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubePlayerSample.debug.xcconfig"; path = "Target Support Files/Pods-YoutubePlayerSample/Pods-YoutubePlayerSample.debug.xcconfig"; sourceTree = "<group>"; };
+		E1A4B6245CC008F904B348A6 /* Pods_YoutubePlayerSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoutubePlayerSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FF6611128B856B5006F9E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0715041B01C4F8253832B6C1 /* Pods_YoutubePlayerSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E9B610731DF86FB7AD02360 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1A4B6245CC008F904B348A6 /* Pods_YoutubePlayerSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FF6610B28B856B5006F9E94 = {
+			isa = PBXGroup;
+			children = (
+				7FF6611628B856B5006F9E94 /* YoutubePlayerSample */,
+				7FF6611528B856B5006F9E94 /* Products */,
+				D89DBF029040AE5FFCCDCE83 /* Pods */,
+				3E9B610731DF86FB7AD02360 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7FF6611528B856B5006F9E94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FF6611428B856B5006F9E94 /* YoutubePlayerSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FF6611628B856B5006F9E94 /* YoutubePlayerSample */ = {
+			isa = PBXGroup;
+			children = (
+				7FF6611728B856B5006F9E94 /* YoutubePlayerSampleApp.swift */,
+				7FF6611928B856B5006F9E94 /* ContentView.swift */,
+				7FF6612528B85906006F9E94 /* PlayerView.swift */,
+				7FF6611B28B856B9006F9E94 /* Assets.xcassets */,
+				7FF6611D28B856B9006F9E94 /* Preview Content */,
+			);
+			path = YoutubePlayerSample;
+			sourceTree = "<group>";
+		};
+		7FF6611D28B856B9006F9E94 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7FF6611E28B856B9006F9E94 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D89DBF029040AE5FFCCDCE83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA9A10BA7625F93C83FA629A /* Pods-YoutubePlayerSample.debug.xcconfig */,
+				497C9FDF97A7F5989AEDB406 /* Pods-YoutubePlayerSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FF6611328B856B5006F9E94 /* YoutubePlayerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FF6612228B856B9006F9E94 /* Build configuration list for PBXNativeTarget "YoutubePlayerSample" */;
+			buildPhases = (
+				E891B144ABBA4E0A747A6153 /* [CP] Check Pods Manifest.lock */,
+				7FF6611028B856B5006F9E94 /* Sources */,
+				7FF6611128B856B5006F9E94 /* Frameworks */,
+				7FF6611228B856B5006F9E94 /* Resources */,
+				8890045DDBF7EE9A99F615AB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoutubePlayerSample;
+			productName = YoutubePlayerSample;
+			productReference = 7FF6611428B856B5006F9E94 /* YoutubePlayerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FF6610C28B856B5006F9E94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7FF6611328B856B5006F9E94 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7FF6610F28B856B5006F9E94 /* Build configuration list for PBXProject "YoutubePlayerSample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FF6610B28B856B5006F9E94;
+			productRefGroup = 7FF6611528B856B5006F9E94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FF6611328B856B5006F9E94 /* YoutubePlayerSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FF6611228B856B5006F9E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF6611F28B856B9006F9E94 /* Preview Assets.xcassets in Resources */,
+				7FF6611C28B856B9006F9E94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8890045DDBF7EE9A99F615AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoutubePlayerSample/Pods-YoutubePlayerSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YoutubePlayerSample/Pods-YoutubePlayerSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YoutubePlayerSample/Pods-YoutubePlayerSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E891B144ABBA4E0A747A6153 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YoutubePlayerSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FF6611028B856B5006F9E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF6612628B85906006F9E94 /* PlayerView.swift in Sources */,
+				7FF6611A28B856B5006F9E94 /* ContentView.swift in Sources */,
+				7FF6611828B856B5006F9E94 /* YoutubePlayerSampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7FF6612028B856B9006F9E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FF6612128B856B9006F9E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FF6612328B856B9006F9E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA9A10BA7625F93C83FA629A /* Pods-YoutubePlayerSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YoutubePlayerSample/Preview Content\"";
+				DEVELOPMENT_TEAM = GN7L4F7FMS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YoutubePlayerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FF6612428B856B9006F9E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 497C9FDF97A7F5989AEDB406 /* Pods-YoutubePlayerSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YoutubePlayerSample/Preview Content\"";
+				DEVELOPMENT_TEAM = GN7L4F7FMS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YoutubePlayerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FF6610F28B856B5006F9E94 /* Build configuration list for PBXProject "YoutubePlayerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF6612028B856B9006F9E94 /* Debug */,
+				7FF6612128B856B9006F9E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FF6612228B856B9006F9E94 /* Build configuration list for PBXNativeTarget "YoutubePlayerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF6612328B856B9006F9E94 /* Debug */,
+				7FF6612428B856B9006F9E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FF6610C28B856B5006F9E94 /* Project object */;
+}
